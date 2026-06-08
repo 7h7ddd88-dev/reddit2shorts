@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+eggs/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+.mypy_cache/
+
+# Logs
+*.log
+logs/
+
+# Секреты и ключи — НИКОГДА не коммитить
+.env
+.env.*
+*.local.yaml
+*.local.yml
+config.yaml
+config.yml
+credentials/
+*.pem
+*.key
+*.json
+!package.json
+
+# Медиа-выход (генерируется автоматически)
+output/
+temp/
+*.mp4
+*.mp3
+*.wav
+*.jpg
+*.jpeg
+*.png
+*.webp
+!assets/**
+
+# Трекер обработанных историй (локальное состояние)
+processed_stories.json
+
+# Backup
+*.bak
+*.backup
